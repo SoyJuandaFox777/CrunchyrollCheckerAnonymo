@@ -19,11 +19,11 @@ def main():
     if not os.path.exists('result'):
         os.makedirs('result')
         
-    filename = input("Enter the name or path of file: ")
+    filename = input("Ingresa el nombre del archivo: ")
     if os.path.isfile(filename):
         src.checker.CrunchyrollChecker.create(filename)
     else:
-        print("File not found.")
+        print("Archivo no encontrado.")
 
 
 ### yeaaahhhh!!!!
